@@ -35,5 +35,10 @@ public class HistoireTP4 {
 
 		System.out.println("Fin du test classe Ronin");
 		
+		
+		
+		
+		System.out.println("Fin duels entre Ronin et Yakuza");
+		
 	}
 }
