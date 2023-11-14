@@ -20,7 +20,7 @@ public class Yakuza extends Humain {
 
 	public int perdre() {
 		int argentPerdu = getArgent();
-		setArgent(0);
+		perdreArgent(argentPerdu);
 		reputation -= 1;
 		parler("J'ai perdu mon duel et mes " + argentPerdu + " sous, snif... J'ai déshonoré le clan de " + clan);
 		return argentPerdu;
