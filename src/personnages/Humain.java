@@ -27,7 +27,7 @@ public class Humain {
 //	}
 
 	public void direBonjour() {
-		parler("Bonjour! Je m'appelle " + getNom() + " et j'aime boire du " + this.boissonFavorite);
+		parler("Bonjour! Je m'appelle " + getNom() + " et j'aime boire du " + this.boissonFavorite + ".");
 	}
 
 	public void boire() {
